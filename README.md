@@ -8,3 +8,6 @@ on the test, but there were no result, and that I was seriously upset.
 
 A Perl script is included but I can only make it work outside of tmux, even though
 this seem to be the most promising of the bunch.
+
+[junegunn/fzf](https://github.com/junegunn/fzf) need to be installed for fuzzy
+matching

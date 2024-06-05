@@ -9,11 +9,9 @@ function main () {
         name=$(append_root $name $path)
     fi
 
-
     name=${name/./_}
 
     if [[ `has_duplicated_name $name` -eq 0 ]]; then
-        echo "new session"
         tmux new-session -ds "$name" -c "$path"
     fi
 
